@@ -1,0 +1,30 @@
+body.login {
+  background: url("./img.jpg") repeat 0 0;
+  background-image: cover;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+body {
+  overflow: hidden;
+}
+.front-page {
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn-start {
+  opacity: 20%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn-start:hover {
+  animation: slide 2s linear;
+}
